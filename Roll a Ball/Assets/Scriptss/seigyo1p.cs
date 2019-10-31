@@ -18,4 +18,12 @@ public class seigyo1p : MonoBehaviour
       rb.AddForce(movememt * speed);
        
     }
+
+    void OnTriggerEnter(Collider other) 
+    {
+      if (other.gameObject.CompareTag("aitemu"))
+      {
+         other.gameObject.SetActive(false) ;
+      }
+    }
 }

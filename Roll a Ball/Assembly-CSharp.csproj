@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scriptss\kamera.cs" />
+     <Compile Include="Assets\Scriptss\mawaru.cs" />
      <Compile Include="Assets\Scriptss\seigyo1p.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Users/plise/Documents/workspace/unity/kazuhidemura/Roll a Ball/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
