@@ -11,6 +11,14 @@ public class P1 : MonoBehaviour
 
         var velocity = new Vector3(h, v) * m_speed;
         transform.localPosition += velocity;
+        transform.localPosition = Utils.ClampPosition( transform.localPosition);
+    
+        var screenPos = Camera.main.WorldToScreenPoint( transform.position );
+        var direction = Input.mousePosition - screenPos;
+        var angle = Utils.GetAngle( Vector3.zero,direction );
+        var angles = transform.localEulerAngles;
+        angles.z = angle - 90;
+        transform.localEulerAngles = angles;
     }
 
     // // Update is called once per frame

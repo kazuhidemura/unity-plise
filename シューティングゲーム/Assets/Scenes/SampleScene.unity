@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 88060635}
   - component: {fileID: 88060634}
   - component: {fileID: 88060636}
+  - component: {fileID: 88060637}
   m_Layer: 0
   m_Name: P1
   m_TagString: Untagged
@@ -205,6 +206,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_speed: 0.1
+--- !u!114 &88060637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88060633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f16a69300abe045d790c82ad963b5bda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,6 +310,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1545916450}
   - component: {fileID: 1545916449}
+  - component: {fileID: 1545916451}
   m_Layer: 0
   m_Name: haikei
   m_TagString: Untagged
@@ -366,3 +380,86 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1545916451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1545916448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 263783ab0873046298597bd0f218818c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_player: {fileID: 88060635}
+  m_limit: {x: 2.9, y: 2.1}
+--- !u!1001 &1647620376
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8178220942158983023, guid: 9e1daeb1b585043d4b9aacf4d9d72f05,
+        type: 3}
+      propertyPath: m_Name
+      value: tama
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814524720892705979, guid: 9e1daeb1b585043d4b9aacf4d9d72f05,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.717
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814524720892705979, guid: 9e1daeb1b585043d4b9aacf4d9d72f05,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.105
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814524720892705979, guid: 9e1daeb1b585043d4b9aacf4d9d72f05,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814524720892705979, guid: 9e1daeb1b585043d4b9aacf4d9d72f05,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814524720892705979, guid: 9e1daeb1b585043d4b9aacf4d9d72f05,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814524720892705979, guid: 9e1daeb1b585043d4b9aacf4d9d72f05,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814524720892705979, guid: 9e1daeb1b585043d4b9aacf4d9d72f05,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814524720892705979, guid: 9e1daeb1b585043d4b9aacf4d9d72f05,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814524720892705979, guid: 9e1daeb1b585043d4b9aacf4d9d72f05,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814524720892705979, guid: 9e1daeb1b585043d4b9aacf4d9d72f05,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7814524720892705979, guid: 9e1daeb1b585043d4b9aacf4d9d72f05,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9e1daeb1b585043d4b9aacf4d9d72f05, type: 3}

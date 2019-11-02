@@ -53,7 +53,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\haikei.cs" />
      <Compile Include="Assets\Scripts\P1.cs" />
+     <Compile Include="Assets\Scripts\Utils.cs" />
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/Users/plise/Documents/workspace/2018.4.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
  </Reference>
