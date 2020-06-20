@@ -20,4 +20,13 @@ public static class Utils
         var rad = Mathf.Atan2( dy, dx );
         return rad * Mathf.Rad2Deg;
     }
+    public static Vector3 GetDirection(float angle )
+    {
+        return new Vector3
+        (
+            Mathf.Cos(angle * Mathf.Deg2Rad ),
+            Mathf.Sin(angle * Mathf.Deg2Rad ),
+            0
+        );
+    }
 }
